@@ -9,18 +9,18 @@
 :octocat:
 
 This repository contains:
-1. The dataset of 20M movielens in data[data] {link.csv[link.csv], movie.csv[movie.csv], rating.csv[rating.csv]} and the dataset of 20M movielens in data[data] {links.csv[links.csv], movies.csv[movies.csv], ratings.csv[ratings.csv]}}after preprocessing to be used then.
-2. The code Data_Processing.ipynb[Data_Processing.ipynb] to preprocess the dataset.
-3. The code SVD_model.ipynb[SVD_model.ipynb] to perform the sparse SVD.
-4. The code MF.ipynb[MF.ipynb] to perform the Matrix Factorization of sparse matrix.
+1. The dataset of 20M movielens in [data](data) {[link.csv](link.csv), [movie.csv](movie.csv), [rating.csv](rating.csv)} and the dataset of 20M movielens in [data](data) {[links.csv](links.csv), [movies.csv](movies.csv), [ratings.csv](ratings.csv)}after preprocessing to be used then.
+2. The code [Data_Processing.ipynb](Data_Processing.ipynb) to preprocess the dataset.
+3. The code [SVD_model.ipynb](SVD_model.ipynb) to perform the sparse SVD.
+4. The code [MF.ipynb](MF.ipynb) to perform the Matrix Factorization of sparse matrix.
 
 
 
 ## Table of Contents
-- [Preprocess of Dataset](#preprocess-of-dataser)
+- [Preprocess of Dataset](#preprocess-of-dataset)
 - [SVD Model](#svd-model)
 - [Matrix Factorization](#matrix-factorization)
-- [Comparision of Models](#compareision-of-models)
+- [Comparision of Models](#comparision-of-models)
 
 
 
@@ -32,12 +32,12 @@ This repository contains:
 
 - To perform SVD Model we import libraries from Suprise package and use the cross_vadilate to compute the RMSE of the SVD algorithm.
 - And the training performance are shown below.
-!SVD[SVD.png]
+![SVD.png](/SVD.png)
 
 ## Matrix Factorization 
 - The mothodology comes from the paper **"Matrix Factorization Techniques for Recommender Systems"**  published by IEEE Computer Society : [[1]](https://ieeexplore.ieee.org/document/5197422), [[2]](https://datajobs.com/data-science-repo/Recommender-Systems-[Netflix].pdf) 
 - We define a MF class to specify the methods used in the paper. And peroform it for 50 iterations and 100 iterations.
-![iteration50.png] ![iteration100.png]
+![iteration50.png](/iteration50.png) ![iteration100.png](/iteration100.png)
 
 ## Comparision of Models
    
